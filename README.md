@@ -33,7 +33,7 @@ python datasets_process/process_UTKFace.py \
 ```$mitigation``` is the potentially used method to reduce stereotypical bias.
 
 **Dataset for the Language Modality Task**
-1. Download the our self-generated (SelfGen) dataset [here](https://huggingface.co/datasets/A5hbr1ng3r/ModSCAN) to directory datasets/UTKFace/ or use model described in the original paper to generate (all details have been provided in our paper).
+1. Download the our self-generated (SelfGen) dataset [here](https://huggingface.co/datasets/A5hbr1ng3r/ModSCAN) to directory datasets/SelfGen/ or use model described in the original paper to generate (all details have been provided in our paper).
 2. To add the vision debiasing prompt into the SelfGen images, please run the command:
 ```
 python datasets_process/process_SelfGen.py
