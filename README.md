@@ -5,7 +5,7 @@
 This is the official public repository of the paper [*$\texttt{ModSCAN}$: Measuring Stereotypical Bias in Large Vision-Language Models from Vision and Language Modalities*](https://arxiv.org/abs/2410.06967).  
 *All the following updates will be released here first in the future.*  
 
-*Be careful! This repository may contains potentially unsafe information. User discretion is advised.*
+*Be careful! This repository may contain potentially unsafe information. User discretion is advised.*
 
 ## How to use this repository?
 
@@ -34,7 +34,7 @@ python datasets_process/process_UTKFace.py \
 
 **Dataset for the Language Modality Task**
 1. Download the our self-generated (SelfGen) dataset [here](https://huggingface.co/datasets/A5hbr1ng3r/ModSCAN) to directory datasets/UTKFace/ or use model described in the original paper to generate (all details have been provided in our paper).
-2. To add vision debiasing prompt into the SelfGen images, please run the command:
+2. To add the vision debiasing prompt into the SelfGen images, please run the command:
 ```
 python datasets_process/process_SelfGen.py
 ```
